@@ -1,0 +1,30 @@
+/* css for the document task1 */
+.card {
+    background-color: #e6cfb3;
+    border: 1px solid #dee2e6;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 3rem;
+    width: fit-content;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 30px 30px 1px 1px;
+}
+
+.card h1 {
+    color: rgb(134, 17, 17);
+}
+
+.card p {
+    color: rgb(168, 33, 33);
+    font-size: 20px;
+}
+
+.card input {
+    width: fit-content;
+    background-color: teal;
+    border-radius: 6px;
+    font-size: 20px
+}

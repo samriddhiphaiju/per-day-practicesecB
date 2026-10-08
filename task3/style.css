@@ -1,0 +1,85 @@
+/* Styles for the practice page */
+* {
+    margin: 30px;
+
+}
+
+
+navgation {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1a2536;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+a[href="#home"] {
+    background-color: #008cba;
+}
+
+a[href="#gallery"] {
+    background-color: #2e7d32;
+}
+
+a[href="#contact"] {
+    background-color: #7b1fa2;
+}
+
+.home {
+    background-color: #ffebee;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.home h2 {
+    color: #c62828;
+    margin-top: 0;
+}
+
+.gallery {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e8f5e9;
+}
+
+.gallery h2 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+
+
+.contact {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e1f5fe;
+}
+
+.contact h2 {
+    color: #0277bd;
+    margin-top: 0;
+}
